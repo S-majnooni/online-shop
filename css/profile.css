@@ -1,0 +1,133 @@
+body{
+    font-family: koodak;
+    direction: rtl;
+    background: linear-gradient(to right, #9c88ff, #0097e6,#FDA7DF);
+}
+
+::-webkit-scrollbar{
+    width: 0.6vw;
+}
+
+::-webkit-scrollbar-track{
+    background-color: lightblue;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #1289A7;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #67e6dc;
+    box-shadow: 0px 0px 8px 10px #67e6dc;
+    border-radius: 10px;
+}    
+
+main{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h3{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.user-profile-card{
+    width: 430px;
+    height: 610px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 10px 2px lightgray;
+    background-color: rgba(211, 211, 211, 0.458);
+}
+
+.valus-user{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.information-user{
+    width: 80%;
+    height: 30px;
+    border-bottom: 1px solid #00b894;
+    padding: 0px 3px 0px 3px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-delet-button{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.edit-delet-card{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 600px 0px 600px;
+}
+
+.edit{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1289A7;
+    color: white;
+    text-decoration: none;
+    border-radius: 14px;
+}
+
+.delet{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 14px;
+}
+
+.guid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+}
+
+.alert-acc{
+    /* margin-right: 600px; */
+    font-size: 40px;
+}
+
+.click-for-login{
+    text-align: center;
+    width: 370px;
+    height: 55px;
+    background-color: #1289A7;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 14px;
+    color:white; 
+}
+
+.img-user{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    
+}
