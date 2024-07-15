@@ -1,0 +1,40 @@
+#main{
+    height: 825px;
+    width: 100%;
+    background: linear-gradient(to top right, #9c88ff, #0097e6,#FDA7DF);
+    animation-name: changecolor;
+    animation-duration: 30s;
+    animation-delay: 3s;
+    animation-fill-mode:none;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+@keyframes changecolor{
+    10%{
+        background: linear-gradient(to right, #9c88ff, #0097e6,#FDA7DF);
+    }
+    20%{
+        background: linear-gradient(to bottom right, #9c88ff, #0097e6,#FDA7DF);
+    }
+    35%{
+        background: linear-gradient(to bottom, #9c88ff, #0097e6,#FDA7DF);
+    }
+    50%{
+        background: linear-gradient(to bottom left, #9c88ff, #0097e6,#FDA7DF);
+    }
+    65%{
+        background: linear-gradient(to left, #9c88ff, #0097e6,#FDA7DF);
+    }
+    80%{
+        background: linear-gradient(to top left, #9c88ff, #0097e6,#FDA7DF);
+    }
+    95%{
+        background: linear-gradient(to top , #9c88ff, #0097e6,#FDA7DF);
+    }
+}
+
+form{
+    margin-right: 280px;
+    margin-top: 86px;
+}

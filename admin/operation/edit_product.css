@@ -1,0 +1,123 @@
+body{
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    font-family: koodak;
+}
+
+::-webkit-scrollbar{
+    width: 0.6vw;
+}
+
+::-webkit-scrollbar-track{
+    background-color: lightblue;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #1289A7;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #67e6dc;
+    box-shadow: 0px 0px 8px 10px #67e6dc;
+    border-radius: 10px;
+}    
+
+#main{
+    height: 875px;
+    margin-top: -50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top right, #9c88ff, #0097e6,#FDA7DF);
+    animation-name: changecolor;
+    animation-duration: 30s;
+    animation-delay: 3s;
+    animation-fill-mode:none;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+@keyframes changecolor{
+    10%{
+        background: linear-gradient(to right, #9c88ff, #0097e6,#FDA7DF);
+    }
+    20%{
+        background: linear-gradient(to bottom right, #9c88ff, #0097e6,#FDA7DF);
+    }
+    35%{
+        background: linear-gradient(to bottom, #9c88ff, #0097e6,#FDA7DF);
+    }
+    50%{
+        background: linear-gradient(to bottom left, #9c88ff, #0097e6,#FDA7DF);
+    }
+    65%{
+        background: linear-gradient(to left, #9c88ff, #0097e6,#FDA7DF);
+    }
+    80%{
+        background: linear-gradient(to top left, #9c88ff, #0097e6,#FDA7DF);
+    }
+    95%{
+        background: linear-gradient(to top , #9c88ff, #0097e6,#FDA7DF);
+    }
+}
+
+.register-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-animation{
+    margin-right: 140px;
+}
+
+form{
+    width: 750px;
+    height: 589px;
+    box-shadow: 0px 0px 8px 0px whitesmoke;
+    border-radius: 10px;
+    background-color: #95afc048;
+}
+
+.register-title{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs-information{
+    margin-right: 10px;
+}
+
+.information-input{
+    margin-top: 52px;
+    border: none;
+    border-bottom: 2px solid #ED4C67;
+    background-color: #95afc000;
+    outline: none;
+    width: 560px;
+    color: black;
+    font-family: koodak;
+}
+
+#addres-input{
+    height: 30px;
+    resize: none;
+    font-family: koodak;
+}
+
+.send-inputs{
+    margin-top: 8px;
+    height: 36px;
+    border: none;
+    outline: none;
+    width: 562px;
+    border-radius: 10px;
+    background-color: #F8EFBA;
+    font-family: koodak;
+}
