@@ -1,0 +1,74 @@
+
+#table-manage-product{
+    /* margin-top: -700px; */
+    text-align: center;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+
+#table-manage-product tr th{
+    padding: 50px 70px 30px 70px;
+}
+
+#table-manage-product tr td{
+    padding:15px 15px;
+    /* border-radius: 10px; */
+}
+
+.edit{
+    background-color: #01a3a4;
+    color: white;
+    padding: 2px 10px; 
+    margin-left: 4px;
+    border-radius: 5px;
+}
+
+.delete{
+    background-color: #ff3838;
+    color: white;
+    padding: 2px 15px; 
+    border-radius: 5px;
+}
+
+.detale-table{
+    box-shadow: 0px 0px 8px 0px whitesmoke;
+    border-radius: 10px;
+    background-color: #95afc07c;
+}
+
+#main{
+    height: 755px;
+    width: 100%;
+    background: linear-gradient(to top right, #9c88ff, #0097e6,#FDA7DF);
+    animation-name: changecolor;
+    animation-duration: 30s;
+    animation-delay: 3s;
+    animation-fill-mode:none;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+@keyframes changecolor{
+    10%{
+        background: linear-gradient(to right, #9c88ff, #0097e6,#FDA7DF);
+    }
+    20%{
+        background: linear-gradient(to bottom right, #9c88ff, #0097e6,#FDA7DF);
+    }
+    35%{
+        background: linear-gradient(to bottom, #9c88ff, #0097e6,#FDA7DF);
+    }
+    50%{
+        background: linear-gradient(to bottom left, #9c88ff, #0097e6,#FDA7DF);
+    }
+    65%{
+        background: linear-gradient(to left, #9c88ff, #0097e6,#FDA7DF);
+    }
+    80%{
+        background: linear-gradient(to top left, #9c88ff, #0097e6,#FDA7DF);
+    }
+    95%{
+        background: linear-gradient(to top , #9c88ff, #0097e6,#FDA7DF);
+    }
+}

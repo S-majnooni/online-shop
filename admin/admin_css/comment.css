@@ -1,0 +1,15 @@
+.alert{
+    margin-right: 400px;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.alert span{
+    margin-right: 60px;
+}
+
+.decor-img{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}

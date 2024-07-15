@@ -1,0 +1,39 @@
+.cat-name{
+    width: 800px;
+    height: 60px;
+    box-shadow: 0px 0px 8px 0px whitesmoke;
+    border-radius: 10px;
+    background-color: #95afc048;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    margin-right: 160px;
+}
+
+.add-cat{
+    border: none;
+    border-bottom: 2px solid #ED4C67;
+    background-color: #95afc000;
+    outline: none;
+    width: 650px;
+    color: black;
+    font-family: koodak;
+}
+
+.send-inputs{
+    margin-top: 8px;
+    margin-right: 280px;
+    height: 36px;
+    border: none;
+    outline: none;
+    width: 562px;
+    border-radius: 10px;
+    background-color: #F8EFBA;
+    font-family: koodak;
+}
+
+.decor-img{
+    margin-right: 300px;
+    margin-top: 50px;
+}
